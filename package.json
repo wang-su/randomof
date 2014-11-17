@@ -1,5 +1,5 @@
 {
-    "name": "randomof",
+    "name": "random-of",
     "version": "0.0.1", 
     "description": "random number, random string and random iterator", 
     "main": "index.js", 
