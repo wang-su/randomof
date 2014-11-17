@@ -1,15 +1,21 @@
 {
     "name": "randomof",
-    "version": "0.0.0", 
-    "description": "create random string", 
-    "main": "src/index.js", 
+    "version": "0.0.1", 
+    "description": "random number, random string and random iterator", 
+    "main": "index.js", 
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     }, 
     "repository": {
         "type": "git", 
         "url": "https://github.com/wang-su/randomof.git"
-    }, 
+    },
+    "keywords": [
+         "randomString",
+         "randomNumber",
+         "iterator",
+         "randomIterator"
+    ],
     "author": "wangsu <wangsu01@baidu.com>", 
     "license": "MIT"
 }
