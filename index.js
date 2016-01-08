@@ -116,13 +116,13 @@ Iterator.prototype = {
     remove: function(condition, forceItem){
         if(arguments.length > 0){
             
-            if(!forceItem && item instanceof Function){
+            if(!forceItem && condition instanceof Function){
                 this._contents = this._contents.filter(function(){
-                    return item.apply(arguments);
+                    return condition.apply(arguments);
                 });
             }else{
                 // undefined and null maybe is good item;
-                var index = this._contents.indexOf(item);
+                var index = this._contents.indexOf(condition);
                 if (index !== -1) {
                     this._contents.splice(index,1);
                 }
